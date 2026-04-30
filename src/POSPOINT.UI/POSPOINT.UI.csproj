@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POSPOINT.Core\POSPOINT.Core.csproj" />
+    <ProjectReference Include="..\POSPOINT.Data\POSPOINT.Data.csproj" />
+    <ProjectReference Include="..\POSPOINT.Models\POSPOINT.Models.csproj" />
+  </ItemGroup>
+
+</Project>
